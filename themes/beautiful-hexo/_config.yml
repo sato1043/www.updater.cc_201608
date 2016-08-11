@@ -1,14 +1,14 @@
 navbar-links:
     Archive: /archives
-    Github: https://github.com/twoyao/beautiful-hexo
+    Github: https://github.com/updaterllc
     About: /about/
 
 avatar: /hexo.png
 favicon: /hexo.png
 
 header:
-    title: "Beautiful Hexo"
-    motto: Build a beautiful and simple website in minutes
+    title: "Updater LLC."
+    motto: Supports your Change and Growth
     bigimgs:
         - src: /bigimgs/01.jpg
           desc: beautiful island
@@ -35,12 +35,12 @@ footer:
     icon: fa-facebook
     enalbe: false
   weibo:
-    link: 'http://weibo.com/bisyao?is_all=1'
+    link: #'http://weibo.com/bisyao?is_all=1'
     title: Weibo
     icon: fa-weibo
     enalbe: true
   github:
-    link: 'https://github.com/twoyao'
+    link: 'https://github.com/updaterllc'
     title: GitHub
     icon: fa-github
     enable: true
@@ -50,12 +50,12 @@ footer:
     icon: fa-rss
     enable: true
   twitter:
-    link: 'https://twitter.com/twoyao_'
+    link: 'https://twitter.com/sato1043'
     title: Twitter
     icon: fa-twitter
     enable: true
   mail:
-    link: 'mailto:bisyao@gmail.com'
+    link: 'mailto:hello@updater.cc'
     title: Email me
     icon: fa-envelope
     enable: true
@@ -70,9 +70,9 @@ footer:
     icon: fa-stack-overflow
     enable: false
 
-google_analytics:
+google_analytics: UA-61077610-1
 
 comment:
-  enable: true
-  disqus: twoyao
+  enable: false
+  disqus: updaterllc
 
