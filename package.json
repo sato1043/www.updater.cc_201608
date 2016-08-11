@@ -5,6 +5,13 @@
   "hexo": {
     "version": "3.2.2"
   },
+  "scripts": {
+    "clean": "hexo clean",
+    "start": "hexo clean && hexo server --log --port 4000",
+    "debug": "hexo clean && hexo --debug server --log --port 4000",
+    "build": "hexo clean && hexo generate",
+    "deploy": "hexo clean && hexo deploy --generate"
+  },
   "dependencies": {
     "hexo": "^3.2.0",
     "hexo-browsersync": "^0.2.0",
