@@ -75,5 +75,66 @@ archive_generator:
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+# hexo-deployer-s3
+## https://github.com/nt3rp/hexo-deployer-s3
 deploy:
-  type:
+  type: s3
+  bucket: <S3 bucket>
+  aws_key: <AWS id key>
+  aws_secret: <AWS secret key>
+  concurrency: 2
+  region: <region>
+
+# hexo-autonofollow
+## https://github.com/liuzc/hexo-autonofollow
+nofollow:
+  enable: true
+
+# Hexo-all-minifier
+## https://github.com/unhealthy/hexo-all-minifier
+html_minifier:
+  enable: true
+  exclude:
+
+css_minifier:
+  enable: true
+  exclude:
+    - '*.min.css'
+
+js_minifier:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js'
+
+image_minifier:
+  enable: true
+  interlaced: false
+  multipass: false
+  optimizationLevel: 2
+  pngquant: false
+  progressive: false
+
+# hexo-auto-canonical
+## Add an auto canonical helper simply to your html's <head> block as follows:
+##  <%- autoCanonical(config, page) %>
+
+# hexo-autolinker
+## https://github.com/klugjo/hexo-autolinker
+autolinker:
+  enable: true
+  newWindow: true
+  urls: true
+  email: true
+  tel: true
+  twitter: true
+  hashtag: instagram
+  className: 'autolinked'
+
+# hexo-github-card
+## https://github.com/Gisonrg/hexo-github-card
+## {% githubCard user [repo] [width = 400] [theme] [client_id] [client_secret] %}
+
+#__END__
