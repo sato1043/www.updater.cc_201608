@@ -17,6 +17,7 @@ url: https://www.updater.cc
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
+email: hello@updater.cc
 
 # Directory
 source_dir: source
