@@ -15,7 +15,7 @@ header:
         - src: /bigimgs/02.jpg
           desc: Tropical Fish
         - src: /bigimgs/03.jpg
-          desc: ocean
+          desc: blue ocean
 
 rss: /atom.xml
 googlefonts:

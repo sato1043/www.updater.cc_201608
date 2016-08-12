@@ -60,8 +60,32 @@ var main = {
       });
 
       fakeMenu.remove();
-    }        
-    
+    }
+
+    // click'n scroll
+    if (Modernizr.history) {
+      $("nav").delegate("a[internal]", "click", function () {
+        event.preventDefault();
+        _href = $(this).attr("href");
+        history.pushState(null, null, _href);
+        loadContent(_href);
+      });
+      $("body").delegate("a[scrollto]", "click", function () {
+        var _href;
+        event.preventDefault();
+        _href = $(this).attr("href");
+        $('html, body').animate({
+          scrollTop: $(_href).get(0).offsetTop - 80
+        }, 800);
+      });
+      $("body").delegate("button[href]", "click", function () {
+        event.preventDefault();
+        _href = $(this).attr("href");
+        history.pushState(null, null, _href);
+        loadContent(_href);
+      });
+    }
+
     // show the big header image	
     main.initImgs();
   },
