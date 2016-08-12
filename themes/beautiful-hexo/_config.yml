@@ -69,6 +69,11 @@ footer:
     title: StackOverflow
     icon: fa-stack-overflow
     enable: false
+  tel:
+    link: tel:0368694457
+    title: 03-6869-4457
+    icon: fa-phone
+    enable: true
 
 google_analytics: UA-61077610-1
 
