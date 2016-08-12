@@ -96,6 +96,10 @@ img {
 
 /* --- Navbar --- */
 
+.nav>li {
+  text-align: right;
+}
+
 .navbar-custom {
   background: #F5F5F5;
   border-bottom: 1px solid #EAEAEA;
@@ -560,7 +564,7 @@ table tr th {
   padding: 6px 13px;
 }
 table tr td {
-  border: 1px solid #cccccc;
+  /*border: 1px solid #cccccc;*/
   text-align: left;
   margin: 0;
   padding: 6px 13px;
@@ -790,6 +794,42 @@ a.waves-effect .waves-ripple {
   top: 40px;
 }
 
+.company-profile {
+  overflow: hidden;
+}
+.company-profile table tr td {
+  padding-left: 5px;
+}
+.company-profile blockquote {
+  padding-left: 3px;
+}
+@media (max-width: 430px) {
+  .company-profile table tr td:nth-of-type(1) blockquote {
+    margin-top: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+  }
+  .company-profile table tr td:nth-of-type(2) {
+    margin-top: 8px;
+    padding-left: 20px;
+    font-size: 14px;
+    padding-bottom: 12px;
+    margin-bottom: 0;
+  }
+}
+
+.company-map {
+  margin-top: 10px;
+}
+.company-map #map {
+  width: 100%;
+  height: 440px;
+}
+.company-map #map img {
+  max-width: none !important;
+  background: none !important
+}
 
 
 

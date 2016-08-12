@@ -15,8 +15,9 @@ block header
           .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
             .page-heading
               h1!= page.title
-              if page.subtitle
+              if page.title_hr
                 hr.small
+              if page.subtitle
                 span.page-subheading!= page.subtitle
       span.img-desc
 
