@@ -1,19 +1,30 @@
 extends partial/base
 
 block header
-    header.header-section
-        .intro-header.no-img
+  - var display_images = page.bigimgs && page.bigimgs.length > 0
+
+  if display_images
+    - var attrs = {'data-num-img': page.bigimgs.length}
+    - page.bigimgs.forEach(function(val, idx) { var c = idx+1; attrs["data-img-src-"+c]=url_for(val.src); attrs["data-img-desc-"+c]=val.desc;})
+    #header-big-imgs&attributes(attrs)
+
+  header.header-section(class={'has-img': display_images})
+    .intro-header(class=display_images ? 'big-img' : 'no-img')
+      .container
+        .row
+          .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
             .page-heading
-                h1!= page.title
-                if page.subtitle
-                    hr.small
-                    span.page-subheading!= page.subtitle
+              h1!= page.title
+              if page.subtitle
+                hr.small
+                span.page-subheading!= page.subtitle
+      span.img-desc
 
 block content
-    .container
-        .row
-            .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
-                article(role="main", class="blog-post")
-                    != page.content
+  .container
+    .row
+      .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
+        article(role="main", class="blog-post")
+          != page.content
 
-                include partial/comment
+        include partial/comment
