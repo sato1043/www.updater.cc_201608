@@ -5,6 +5,7 @@ db.json
 node_modules/
 public/
 .deploy*/
+/S3_Credentical.patch
 
 ### https://raw.github.com/github/gitignore/be3333655bffe9507d66cc864aee95ed6052b4ed/Global/Vim.gitignore
 
@@ -23,7 +24,8 @@ Session.vim
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
