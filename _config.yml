@@ -128,7 +128,7 @@ image_minifier:
 autolinker:
   enable: true
   newWindow: true
-  urls: true
+  urls: false
   email: true
   tel: true
   twitter: true
