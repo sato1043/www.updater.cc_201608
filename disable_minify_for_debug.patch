@@ -1,0 +1,36 @@
+Index: _config.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- _config.yml	(date 1470984613000)
++++ _config.yml	(revision )
+@@ -95,16 +95,16 @@
+ # Hexo-all-minifier
+ ## https://github.com/unhealthy/hexo-all-minifier
+ html_minifier:
+-  enable: true
++  enable: false
+   exclude:
+ 
+ css_minifier:
+-  enable: true
++  enable: false
+   exclude:
+     - '*.min.css'
+ 
+ js_minifier:
+-  enable: true
++  enable: false
+   mangle: true
+   output:
+   compress:
+@@ -112,7 +112,7 @@
+     - '*.min.js'
+ 
+ image_minifier:
+-  enable: true
++  enable: false
+   interlaced: false
+   multipass: false
+   optimizationLevel: 2
