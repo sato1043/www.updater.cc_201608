@@ -3,15 +3,15 @@ IDEA additional info:
 Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 <+>UTF-8
 ===================================================================
---- themes/beautiful-hexo/_config.yml	(revision 2e13bd07fcc96d6ab50566349a312ccb01fa5e6e)
+--- themes/beautiful-hexo/_config.yml	(revision 7c068901accd649df5a97f531b5309cec580e28a)
 +++ themes/beautiful-hexo/_config.yml	(revision )
 @@ -1,5 +1,4 @@
  navbar-links:
 -    Archive: /archives
      Github: https://github.com/updaterllc
      About: /about/
- 
-@@ -48,7 +47,7 @@
+     Team: /team/
+@@ -49,7 +48,7 @@
      link: '/atom.xml'
      title: RSS
      icon: fa-rss
@@ -25,11 +25,11 @@ IDEA additional info:
 Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 <+>UTF-8
 ===================================================================
---- themes/beautiful-hexo/layout/index.jade	(revision 2e13bd07fcc96d6ab50566349a312ccb01fa5e6e)
+--- themes/beautiful-hexo/layout/index.jade	(date 1471318316000)
 +++ themes/beautiful-hexo/layout/index.jade	(revision )
-@@ -8,33 +8,3 @@
+@@ -10,33 +10,3 @@
  
-     include partial/what-we-do
+     include partial/promise
  
 -    div(class="container", role="main")
 -        .row
