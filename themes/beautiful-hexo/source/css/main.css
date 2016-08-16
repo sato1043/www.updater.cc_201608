@@ -838,5 +838,21 @@ a.waves-effect .waves-ripple {
 }
 
 
-
-
+/*
+ * Promise
+ */
+#Promise {
+  margin-bottom: 80px;
+  font-size: 12px;
+}
+#Promise .card {
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 50px;
+}
+@media only screen and (min-width: 768px) {
+  #Promise .card {
+    width: 760px;
+    margin: 0 auto;
+  }
+}
