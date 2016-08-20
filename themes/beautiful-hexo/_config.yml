@@ -1,8 +1,9 @@
 navbar-links:
-    Archive: /archives
+    Top: /
     Github: https://github.com/updaterllc
     About: /about/
     Team: /team/
+    Lancers: https://www.lancers.jp/profile/sato1043
 
 avatar: /updaterllc.png
 favicon: /updaterllc.png
