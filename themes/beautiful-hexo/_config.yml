@@ -50,7 +50,7 @@ footer:
     link: '/atom.xml'
     title: RSS
     icon: fa-rss
-    enable: true
+    enable: false
   twitter:
     link: 'https://twitter.com/sato1043'
     title: Twitter
