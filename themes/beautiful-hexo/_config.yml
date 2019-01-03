@@ -1,8 +1,8 @@
 navbar-links:
     Top: /
-    Github: https://github.com/updaterllc
     About: /about/
     Team: /team/
+    Github: https://github.com/sato1043
     Lancers: https://www.lancers.jp/profile/sato1043
 
 avatar: /updaterllc.png
@@ -42,7 +42,7 @@ footer:
     icon: fa-weibo
     enalbe: true
   github:
-    link: 'https://github.com/updaterllc'
+    link: 'https://github.com/sato1043'
     title: GitHub
     icon: fa-github
     enable: true
