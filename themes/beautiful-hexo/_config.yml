@@ -1,6 +1,7 @@
 navbar-links:
     Top: /
     About: /about/
+    Archive: /archives
     Team: /team/
     Github: https://github.com/sato1043
     Lancers: https://www.lancers.jp/profile/sato1043
@@ -50,7 +51,7 @@ footer:
     link: '/atom.xml'
     title: RSS
     icon: fa-rss
-    enable: false
+    enable: true
   twitter:
     link: 'https://twitter.com/sato1043'
     title: Twitter
