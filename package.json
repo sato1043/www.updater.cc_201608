@@ -8,7 +8,7 @@
   "scripts": {
     "clean": "hexo clean",
     "start": "hexo clean && hexo server --log --port 4000",
-    "debug": "hexo clean && hexo --debug server --log --port 4000",
+    "debug": "hexo clean && hexo server --log --port 4000 --debug",
     "build": "hexo clean && hexo generate",
     "serve": "./node_modules/.bin/http-server ./public",
     "deploy": "hexo clean && hexo generate && rm public/css/*.map && hexo deploy"
