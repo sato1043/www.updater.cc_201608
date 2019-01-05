@@ -36,3 +36,5 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/deployment.html)
+
+AWS CloudFront の Invalidations では、 /* を指定すればサイト全体が再取得される。
