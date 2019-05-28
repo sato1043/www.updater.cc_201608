@@ -38,3 +38,9 @@ $ hexo deploy
 More info: [Deployment](https://hexo.io/docs/deployment.html)
 
 AWS CloudFront の Invalidations では、 /* を指定すればサイト全体が再取得される。
+
+S3 の static website hostingを使う。
+
+CloudFront を介すことで HTTPS接続できるようにする。
+
+デプロイ用のACM SSL証明書は、N.Virginiaに作らないとCloudFrontで使えない。
