@@ -2,7 +2,7 @@ navbar-links:
     Top: /
     About: /about/
     Archive: /archives
-    Team: /team/
+    #Team: /team/
     Github: https://github.com/sato1043
     Lancers: https://www.lancers.jp/profile/sato1043
 
